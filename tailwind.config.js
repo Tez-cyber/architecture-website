@@ -15,7 +15,8 @@ export default {
       },
       colors: {
         'darkBrown': "#2b2b2b",
-        "cream": "#a39280"
+        "darkCream": "#a39280",
+        "lightCream": "#c0a27e",
       }
     },
   },

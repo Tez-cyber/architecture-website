@@ -38,7 +38,7 @@ const Navbar = () => {
                     <div className="flex gap-5 z-50 font-semibold text-lg">
                         {
                             links.map(link => (
-                                <a href={link.url} key={link.title} className='hover:text-cream'>
+                                <a href={link.url} key={link.title} className='hover:text-darkCream'>
                                     {link.title}
                                 </a>
                             ))
@@ -81,7 +81,7 @@ const Navbar = () => {
                         Odit quos veritatis quam! Maiores fugit harum vero aliquid?
                         Quae, maiores neque!
                     </p>
-                    <div className='bg-[#c0a27e] px-10 py-2 rounded-[25px] font-semibold text-lg flex items-center justify-center gap-2'>
+                    <div className='bg-lightCream px-10 py-2 rounded-[25px] font-semibold text-lg flex items-center justify-center gap-2'>
                         <a href="" b className='block'>
                             See project
                         </a>
