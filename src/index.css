@@ -11,3 +11,8 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+/* button:hover .firstNav {
+  width: 100%;
+  transition: all .2s ease-out;
+} */
