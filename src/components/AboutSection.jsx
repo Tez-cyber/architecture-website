@@ -9,9 +9,9 @@ const AboutSection = () => {
                 <h2 className="">about</h2>
                 <h2 className="text-lightCream">go.arch</h2>
             </div>
-            <div className="flex flex-col gap-10 mx-10 ">
+            <div className="flex flex-col gap-10 mx-10 md:flex-row md:gap-6 md:items-start lg:w-[1024px] lg:mx-auto lg:gap-14 ">
                 {/* -----------------first section */}
-                <div className="flex flex-col gap-6 text-justify">
+                <div className="flex flex-col gap-6 text-justify ">
                     <h2 className="font-semibold text-2xl ">we turn ideas into works of art</h2>
                     <p className="">
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -26,7 +26,7 @@ const AboutSection = () => {
                 </div>
                 {/* -----------------second section */}
                 <div className="flex flex-col">
-                    <div className="py-10 flex flex-col text-2xl font-semibold">
+                    <div className="py-10 flex flex-col text-2xl font-semibold md:py-0 md:pb-10">
                         <h2 className="">our</h2>
                         <h2 className="">specialization:</h2>
                     </div>
@@ -47,8 +47,12 @@ const AboutSection = () => {
                 </div>
                 {/* -----------------Third section */}
                 <div className="flex items-center justify-center">
-                    <img src={Img} className='' alt="" />
+                    <img src={Img} className='md:w-3/5 md:h-3/5' alt="" />
                 </div>
+            </div>
+            <div className="py-20 flex items-center justify-center gap-2 text-3xl uppercase tracking-widest">
+                <h2 className="">our</h2>
+                <h2 className="text-lightCream">projects</h2>
             </div>
         </div>
     )
