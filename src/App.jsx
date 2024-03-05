@@ -1,5 +1,6 @@
 import AboutSection from "./components/AboutSection"
 import Navbar from "./components/Navbar"
+import PortfolioSection from "./components/PortfolioSection"
 
 function App() {
   
@@ -8,6 +9,7 @@ function App() {
       <div className="">
         <Navbar />
         <AboutSection />
+        <PortfolioSection />
       </div>
     </>
   )
