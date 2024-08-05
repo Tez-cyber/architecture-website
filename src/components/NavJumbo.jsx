@@ -63,7 +63,7 @@ const Navbar = () => {
                     <div className="absolute top-0 left-0 bg-black text-white flex h-screen w-screen flex-col items-center justify-center gap-8 text-4xl z-[60]">
                         {links.map(link => (
                             <div key={link.title}>
-                                <a href={link.url}>
+                                <a href={link.url} onClick={() => setOpenNav(!openNav)}>
                                     {link.title}
                                 </a>
                             </div>
