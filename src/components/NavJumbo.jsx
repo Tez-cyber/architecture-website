@@ -13,7 +13,7 @@ const Navbar = () => {
     return (
         <div
             className="relative bg-jumbotron before:bg-black bg-cover bg-center h-screen
-                      before:absolute before:h-full before:w-full before:opacity-[.7] "
+                      before:absolute before:h-full before:w-full before:opacity-[.75] "
         >
             <div className=' text-white absolute z-[60]'>
                 <div className="bg-darkBrown bg-opacity-[0.8] w-fit px-14 py-4 flex flex-col gap-4">
