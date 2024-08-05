@@ -1,5 +1,5 @@
 import AboutSection from "./components/AboutSection"
-import Navbar from "./components/Navbar"
+import NavJumbo from "./components/NavJumbo"
 import PortfolioSection from "./components/PortfolioSection"
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <div className="">
-        <Navbar />
+        <NavJumbo />
         <AboutSection />
         <PortfolioSection />
       </div>
