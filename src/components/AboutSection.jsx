@@ -4,7 +4,7 @@ import Img from "../assets/img-3.jpg"
 
 const AboutSection = () => {
     return (
-        <div className='bg-darkBrown text-white'>
+        <div className='bg-darkBrown text-white pb-20'>
             <div className="py-20 flex items-center justify-center gap-2 text-3xl uppercase tracking-widest">
                 <h2 className="">about</h2>
                 <h2 className="text-lightCream">go.arch</h2>

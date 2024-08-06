@@ -30,20 +30,10 @@ const PortfolioSection = () => {
         }
     ]
     return (
-        <div className="flex flex-col gap-0 md:flex-row">
-            {
-                images.map(img => (
-                    <div className="relative ">
-                        {/* <div className='bg-black absolute h-[700px] w-[700px] opacity-[.7]'></div> */}
-                        <img src={img.src} className=' h-[700px] w-[700px] md' alt="" />
-                        <div className="bg-black absolute top-0 bottom-0 left-0 right-0 h-full w-full opacity-[.5]"></div>
-                        <div className="absolute top-0 p-10 flex flex-col text-xl uppercase text-white">
-                            <h2 className="">{img.title}</h2>
-                            <h2 className="">{img.location}</h2>
-                        </div>
-                    </div>
-                ))
-            }
+        <div className="">
+            <div className="py-20 flex items-center justify-center gap-2 text-3xl uppercase tracking-widest">
+                    
+            </div>
         </div>
     )
 }
