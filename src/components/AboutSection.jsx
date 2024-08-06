@@ -50,10 +50,6 @@ const AboutSection = () => {
                     <img src={Img} className='md:w-3/5 md:h-3/5' alt="" />
                 </div>
             </div>
-            <div className="py-20 flex items-center justify-center gap-2 text-3xl uppercase tracking-widest">
-                <h2 className="">our</h2>
-                <h2 className="text-lightCream">projects</h2>
-            </div>
         </div>
     )
 }
