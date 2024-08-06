@@ -27,25 +27,7 @@ const PortfolioSection = () => {
             src: Img1,
             title: "modern hall",
             location: "in london"
-        },
-        // {
-        //     id: 5,
-        //     src: Img1,
-        //     title: "residential care",
-        //     location: "in london"
-        // },
-        // {
-        //     id: 6,
-        //     src: Img1,
-        //     title: "residential care",
-        //     location: "in london"
-        // },
-        // {
-        //     id: 7,
-        //     src: Img1,
-        //     title: "residential care",
-        //     location: "in london"
-        // },
+        }
     ]
     return (
         <div className="flex flex-col gap-0 md:flex-row">
