@@ -31,10 +31,12 @@ const PortfolioSection = () => {
     ]
     return (
         <div className="">
+            {/* ======== Heading ========= */}
             <div className="py-20 flex items-center justify-center gap-2 text-3xl uppercase tracking-widest">
                 <h2>Hold up. Check out our amazing</h2>
                 <h2 className='text-darkCream'>projects.</h2>
             </div>
+            {/* ========= Content ========= */}
         </div>
     )
 }
