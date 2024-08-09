@@ -37,6 +37,13 @@ const PortfolioSection = () => {
                 <h2 className='text-darkCream'>projects.</h2>
             </div>
             {/* ========= Content ========= */}
+            <div className="parent">
+                <div className="container">
+                    <div className="card"></div>
+                    <div className="card"></div>
+                    <div className="card"></div>
+                </div>
+            </div>
         </div>
     )
 }
