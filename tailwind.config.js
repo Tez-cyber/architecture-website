@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'jumbotron': "url('./assets/img-2.jpg')",
+        'jumbotron': "url('./assets/new-img.jpg')",
       },
       width: {
         'contain': '960px',

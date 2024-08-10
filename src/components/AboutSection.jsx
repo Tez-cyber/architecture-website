@@ -47,7 +47,7 @@ const AboutSection = () => {
                 </div>
                 {/* -----------------Third section */}
                 <div className="flex items-center justify-center">
-                    <img src={Img} className='md:w-3/5 md:h-3/5' alt="" />
+                    <img src={Img} className=' rounded-xl md:w-3/5 md:h-3/5' alt="" />
                 </div>
             </div>
         </div>

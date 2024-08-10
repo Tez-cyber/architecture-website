@@ -37,9 +37,11 @@ const PortfolioSection = () => {
                 <h2 className='text-darkCream'>projects.</h2>
             </div>
             {/* ========= Content ========= */}
-            <div className="parent">
-                <div className="container">
-                    <div className="card"></div>
+            <div className="parent flex justify-center items-center">
+                <div className="container relative grid">
+                    <div className="card">
+                        <img src={Img1} alt="" />
+                    </div>
                     <div className="card"></div>
                     <div className="card"></div>
                 </div>
