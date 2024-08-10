@@ -16,3 +16,9 @@
   width: 100%;
   transition: all .2s ease-out;
 } */
+
+@layer utilities {
+  .port-img {
+    @apply rounded-xl
+  }
+}
