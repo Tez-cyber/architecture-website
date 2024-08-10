@@ -21,8 +21,8 @@ const Navbar = () => {
                     <p className="text-4xl pb-20 text-[#a39280]">01</p>
                 </div>
                 {/* ====== Sidebar ====== */}
-                <div className="bg-darkBrown bg-opacity-[0.8] w-1/2 h-[70vh] md:h-[70vh]">
-                    <div className="h-2/3"></div>
+                <div className="bg-darkBrown absolute bg-opacity-[0.8] w-1/2 h-screen">
+                    <div className="h-1/2"></div>
                     <div className="flex flex-col items-center gap-4">
                         <a href="" className=""><FaInstagram size={20} /></a>
                         <a href="" className=""><FaFacebookSquare size={20} /></a>
