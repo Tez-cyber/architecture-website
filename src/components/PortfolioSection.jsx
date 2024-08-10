@@ -31,14 +31,14 @@ const PortfolioSection = () => {
         }
     ]
     return (
-        <div className="">
+        <div className="mb-20">
             {/* ======== Heading ========= */}
             <div className="py-20 text-center items-center justify-center gap-2 text-3xl uppercase tracking-widest md:flex">
                 <h2>Hold up. Check out our amazing <span className='text-darkCream md:hidden'>projects.</span></h2>
                 <h2 className='text-darkCream hidden md:block'>projects.</h2>
             </div>
             {/* ========= Content ========= */}
-            <div className="parent w-3/4 mx-auto">
+            <div className="w-3/4 mx-auto">
                 <div className=" flex flex-col gap-2">
                     {/* <div className="">
                         <div className="">
