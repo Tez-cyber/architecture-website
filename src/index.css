@@ -18,7 +18,10 @@
 } */
 
 @layer utilities {
+  .port-div {
+    @apply w-1/2 h-1/2
+  }
   .port-img {
-    @apply rounded-xl
+    @apply rounded-xl top-0 left-0 w-full h-full
   }
 }
