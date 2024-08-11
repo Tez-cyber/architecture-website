@@ -48,6 +48,6 @@
     @apply scale-150
   }
   .grid-item:hover .grid-txt{
-    @apply opacity-100 w-full
+    @apply opacity-100 w-full animate-down
   }
 }
