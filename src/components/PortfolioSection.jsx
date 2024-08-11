@@ -1,5 +1,5 @@
 import React from 'react'
-import Img1 from "../assets/port-1.jpg"
+import Img1 from "../assets/new-img.jpg"
 import Img2 from "../assets/port-2.jpg"
 import Img3 from "../assets/port-new.jpg"
 
@@ -38,39 +38,8 @@ const PortfolioSection = () => {
                 <h2 className='text-darkCream hidden md:block'>projects.</h2>
             </div>
             {/* ========= Content ========= */}
-            <div className="w-3/4 mx-auto">
-                <div className=" flex flex-col gap-2">
-                    {/* <div className="">
-                        <div className="">
-                            <img src={Img1} className='w-1/2' alt="" />
-                        </div>
-                        <div className="">
-                            <img src={Img1} className='w-1/2' alt="" />
-                        </div>
-                    </div>
-                    <div className="">
-                        <div className="grid grid-cols-2">
-                            <div className="">
-                                <img src={Img1} className='w-full' alt="" />
-                            </div>
-                            <div className="">
-                                <div className="">
-                                    <img src={Img1} className='' alt="" />
-                                </div>
-                                <div className="">
-                                    <img src={Img1} className='' alt="" />
-                                </div>
-                            </div>
-                        </div>
-                        <div className="grid grid-cols-2">
-                            <div className="">
-                                <img src={Img1} className='' alt="" />
-                            </div>
-                            <div className="">
-                                <img src={Img1} className='' alt="" />
-                            </div>
-                        </div>
-                    </div> */}
+            <div className="mx-3 md:mx-auto md:w-4/5 ">
+                {/* <div className=" flex flex-col gap-2">
                     <div className="grid grid-cols-3 gap-2">
                         <div className="">
                             <img src={Img1} className='port-img' alt="" />
@@ -78,7 +47,6 @@ const PortfolioSection = () => {
                         <div className="">
                             <img src={Img3} className='port-img' alt="" />
                         </div>
-                        {/* =========== */}
                         <div className="flex flex-col gap-2">
                             <div className="">
                                 <img src={Img3} className='port-img ' alt="" />
@@ -97,6 +65,96 @@ const PortfolioSection = () => {
                         </div>
                         <div className="">
                             <img src={Img1} className='port-img' alt="" />
+                        </div>
+                    </div>
+                </div> */}
+                <div className="img-contain">
+                    <div className="grid-contain">
+                        <div className="grid-item ">
+                            <div className="grid-img">
+                                <img src={Img1} className='port-img' alt="" />
+                            </div>
+                            <div className="grid-txt">
+                                <h2 className="">Non-disclosure </h2>
+                                <h2 className="">London, UK</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="grid-contain">
+                        <div className="grid-item">
+                            <div className="grid-img">
+                                <img src={Img1} className='port-img' alt="" />
+                            </div>
+                            <div className="grid-txt">
+                                <h2 className="">Non-disclosure </h2>
+                                <h2 className="">London, UK</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="grid-contain">
+                        <div className="grid-item">
+                            <div className="grid-img">
+                                <img src={Img1} className='port-img' alt="" />
+                            </div>
+                            <div className="grid-txt">
+                                <h2 className="">Non-disclosure </h2>
+                                <h2 className="">London, UK</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="grid-contain">
+                        <div className="grid-item">
+                            <div className="grid-img">
+                                <img src={Img1} className='port-img' alt="" />
+                            </div>
+                            <div className="grid-txt">
+                                <h2 className="">Non-disclosure </h2>
+                                <h2 className="">London, UK</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="grid-contain">
+                        <div className="grid-item">
+                            <div className="grid-img">
+                                <img src={Img1} className='port-img' alt="" />
+                            </div>
+                            <div className="grid-txt">
+                                <h2 className="">Non-disclosure </h2>
+                                <h2 className="">London, UK</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="grid-contain">
+                        <div className="grid-item">
+                            <div className="grid-img">
+                                <img src={Img1} className='port-img' alt="" />
+                            </div>
+                            <div className="grid-txt">
+                                <h2 className="">Non-disclosure </h2>
+                                <h2 className="">London, UK</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="grid-contain">
+                        <div className="grid-item">
+                            <div className="grid-img">
+                                <img src={Img1} className='port-img' alt="" />
+                            </div>
+                            <div className="grid-txt">
+                                <h2 className="">Non-disclosure </h2>
+                                <h2 className="">London, UK</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="grid-contain">
+                        <div className="grid-item">
+                            <div className="grid-img">
+                                <img src={Img1} className='port-img' alt="" />
+                            </div>
+                            <div className="grid-txt">
+                                <h2 className="">Non-disclosure </h2>
+                                <h2 className="">London, UK</h2>
+                            </div>
                         </div>
                     </div>
                 </div>

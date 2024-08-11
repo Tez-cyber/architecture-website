@@ -21,7 +21,33 @@
   .port-div {
     @apply w-1/2 h-1/2
   }
+  .img-contain {
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: 100px 300px;
+    grid-gap: 10px;
+    @apply grid 
+  }
+  /* .grid-contain {
+    @apply 
+  } */
+  .grid-item {
+    @apply w-full h-full relative 
+  }
+  .grid-item .grid-img{
+    @apply w-full h-full rounded-xl overflow-hidden
+  }
   .port-img {
-    @apply rounded-xl top-0 left-0 w-full h-full
+    object-position: 50% 50%;
+    @apply w-full h-full object-cover cursor-pointer transition duration-1000 ease-in-out
+  }
+  .grid-txt {
+    @apply  absolute opacity-0 bottom-2 left-2 text-white text-sm pointer-events-none z-[4] transition duration-700 ease-in-out
+  }
+   /* == Grid-item hover == */
+   .grid-item:hover .grid-img img{
+    @apply scale-150
+  }
+  .grid-item:hover .grid-txt{
+    @apply opacity-100
   }
 }
