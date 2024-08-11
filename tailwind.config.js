@@ -19,7 +19,14 @@ export default {
         "lightCream": "#c0a27e",
       },
       animation: {
-        down: 'move-down .3s linear'
+        down: 'moveDown .3s linear'
+      },
+      keyframes:{
+        moveDown: {
+          "0%": {
+            top: "10%"
+          }
+        }
       }
     },
   },
