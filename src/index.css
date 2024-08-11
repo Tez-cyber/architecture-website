@@ -41,13 +41,13 @@
     @apply w-full h-full object-cover cursor-pointer transition duration-1000 ease-in-out
   }
   .grid-txt {
-    @apply  absolute opacity-0 bottom-2 left-2 text-white text-sm pointer-events-none z-[4] transition duration-700 ease-in-out
+    @apply  absolute opacity-0 bottom-2 p-[1em] text-white text-sm pointer-events-none z-[4] transition duration-700 ease-in-out
   }
    /* == Grid-item hover == */
    .grid-item:hover .grid-img img{
     @apply scale-150
   }
   .grid-item:hover .grid-txt{
-    @apply opacity-100
+    @apply opacity-100 w-full
   }
 }
