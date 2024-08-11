@@ -17,6 +17,9 @@ export default {
         'darkBrown': "#2b2b2b",
         "darkCream": "#a39280",
         "lightCream": "#c0a27e",
+      },
+      animation: {
+        down: 'move-down .3s linear'
       }
     },
   },
