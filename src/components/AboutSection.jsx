@@ -11,17 +11,17 @@ const AboutSection = () => {
             </div>
             <div className="flex flex-col gap-10 mx-10 md:flex-row md:gap-6 md:items-start lg:w-[1024px] lg:mx-auto lg:gap-14 ">
                 {/* -----------------first section */}
-                <div className="flex flex-col gap-6 text-justify ">
-                    <h2 className="font-semibold text-2xl ">we turn ideas into works of art</h2>
+                <div className="flex flex-col gap-6">
+                    <h2 className="font-bold text-3xl ">we turn ideas into works of art <span className='inline-block w-[7px] h-[7px] bg-lightCream rounded-3xl'></span></h2>
                     <p className="">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                        Optio dolorem itaque quibusdam consequuntur quo natus nostrum
-                        officiis, hic deleniti commodi, architecto aliquam adipisci neque
-                        reprehenderit ducimus quod pariatur fugit incidunt vero. Sint a quaerat
-                        dolor illo libero esse odit ex delectus similique. Labore ex libero incidunt
-                        iure. Hic eveniet, provident, temporibus, nam illo dignissimos eos dolorem
-                        harum itaque fuga ad quisquam impedit sequi perferendis quaerat error ullam
-                        vel beatae veritatis.
+                        For each project we establish relationships with 
+                        partners who we know will help us create added value 
+                        for your project. As well as bringing together the public
+                         and private sectors, we make sector-overarching links to 
+                         gather knowledge and to learn from each other. The way we 
+                         undertake projects is based on permanently applying values that 
+                         reinforce each other: socio-cultural value, experiental value, 
+                         building-technical value and economical value.
                     </p>
                 </div>
                 {/* -----------------second section */}
