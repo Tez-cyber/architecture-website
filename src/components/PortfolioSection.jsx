@@ -69,7 +69,7 @@ const PortfolioSection = () => {
                     </div>
                 </div> */}
                 <div className="img-contain">
-                    <div className="grid-contain">
+                    <div className="grid-contain row-span-2">
                         <div className="grid-item ">
                             <div className="grid-img">
                                 <img src={Img1} className='port-img' alt="" />
@@ -80,7 +80,29 @@ const PortfolioSection = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="grid-contain">
+                    <div className="grid-contain col-span-2 row-span-3">
+                        <div className="grid-item">
+                            <div className="grid-img">
+                                <img src={Img1} className='port-img' alt="" />
+                            </div>
+                            <div className="grid-txt">
+                                <h2 className="">Non-disclosure </h2>
+                                <h2 className="">London, UK</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="grid-contain col-span-3">
+                        <div className="grid-item">
+                            <div className="grid-img">
+                                <img src={Img1} className='port-img' alt="" />
+                            </div>
+                            <div className="grid-txt">
+                                <h2 className="">Non-disclosure </h2>
+                                <h2 className="">London, UK</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="grid-contain col-span-3">
                         <div className="grid-item">
                             <div className="grid-img">
                                 <img src={Img1} className='port-img' alt="" />
@@ -113,29 +135,7 @@ const PortfolioSection = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="grid-contain">
-                        <div className="grid-item">
-                            <div className="grid-img">
-                                <img src={Img1} className='port-img' alt="" />
-                            </div>
-                            <div className="grid-txt">
-                                <h2 className="">Non-disclosure </h2>
-                                <h2 className="">London, UK</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="grid-contain">
-                        <div className="grid-item">
-                            <div className="grid-img">
-                                <img src={Img1} className='port-img' alt="" />
-                            </div>
-                            <div className="grid-txt">
-                                <h2 className="">Non-disclosure </h2>
-                                <h2 className="">London, UK</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="grid-contain">
+                    <div className="grid-contain ">
                         <div className="grid-item">
                             <div className="grid-img">
                                 <img src={Img1} className='port-img' alt="" />

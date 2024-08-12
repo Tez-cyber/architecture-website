@@ -22,10 +22,10 @@
     @apply w-1/2 h-1/2
   }
   .img-contain {
-    grid-template-columns: repeat(6, 1fr);
-    grid-auto-rows: 100px 300px;
+    /* grid-template-columns: repeat(6, 1fr); */
+    grid-auto-rows: 100px 200px;
     grid-gap: 10px;
-    @apply grid 
+    @apply grid-flow-dense grid-cols-3 md:grid-cols-6 grid
   }
   /* .grid-contain {
     @apply 
@@ -34,7 +34,7 @@
     @apply w-full h-full relative 
   }
   .grid-item .grid-img{
-    @apply w-full h-full rounded-xl overflow-hidden
+    @apply rounded-xl overflow-hidden w-full h-full
   }
   .port-img {
     object-position: 50% 50%;
@@ -48,6 +48,6 @@
     @apply scale-150
   }
   .grid-item:hover .grid-txt{
-    @apply opacity-100 w-full animate-down
+    @apply opacity-100 w-full
   }
 }
