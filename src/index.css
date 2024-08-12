@@ -34,7 +34,7 @@
     @apply w-full h-full relative 
   }
   .grid-item .grid-img{
-    @apply rounded-xl overflow-hidden w-full h-full
+    @apply rounded-xl overflow-hidden w-full h-full 
   }
   .port-img {
     object-position: 50% 50%;

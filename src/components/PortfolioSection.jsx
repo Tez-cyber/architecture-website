@@ -1,7 +1,12 @@
 import React from 'react'
 import Img1 from "../assets/new-img.jpg"
 import Img2 from "../assets/port-2.jpg"
-import Img3 from "../assets/port-new.jpg"
+import Img3 from "../assets/port-5.jpg"
+import Img4 from "../assets/port-3.jpg"
+import Img5 from "../assets/img-2.jpg"
+import Img6 from "../assets/img-1.jpg"
+import Img7 from "../assets/port-5.jpg"
+import Img8 from "../assets/img-4.jpg"
 
 const PortfolioSection = () => {
     const images = [
@@ -83,7 +88,7 @@ const PortfolioSection = () => {
                     <div className="grid-contain col-span-2 row-span-3">
                         <div className="grid-item">
                             <div className="grid-img">
-                                <img src={Img1} className='port-img' alt="" />
+                                <img src={Img2} className='port-img' alt="" />
                             </div>
                             <div className="grid-txt">
                                 <h2 className="">Non-disclosure </h2>
@@ -94,7 +99,7 @@ const PortfolioSection = () => {
                     <div className="grid-contain col-span-3">
                         <div className="grid-item">
                             <div className="grid-img">
-                                <img src={Img1} className='port-img' alt="" />
+                                <img src={Img3} className='port-img' alt="" />
                             </div>
                             <div className="grid-txt">
                                 <h2 className="">Non-disclosure </h2>
@@ -105,7 +110,7 @@ const PortfolioSection = () => {
                     <div className="grid-contain col-span-3">
                         <div className="grid-item">
                             <div className="grid-img">
-                                <img src={Img1} className='port-img' alt="" />
+                                <img src={Img5} className='port-img' alt="" />
                             </div>
                             <div className="grid-txt">
                                 <h2 className="">Non-disclosure </h2>
@@ -116,7 +121,7 @@ const PortfolioSection = () => {
                     <div className="grid-contain">
                         <div className="grid-item">
                             <div className="grid-img">
-                                <img src={Img1} className='port-img' alt="" />
+                                <img src={Img4} className='port-img' alt="" />
                             </div>
                             <div className="grid-txt">
                                 <h2 className="">Non-disclosure </h2>
@@ -127,7 +132,7 @@ const PortfolioSection = () => {
                     <div className="grid-contain">
                         <div className="grid-item">
                             <div className="grid-img">
-                                <img src={Img1} className='port-img' alt="" />
+                                <img src={Img6} className='port-img' alt="" />
                             </div>
                             <div className="grid-txt">
                                 <h2 className="">Non-disclosure </h2>
@@ -138,7 +143,7 @@ const PortfolioSection = () => {
                     <div className="grid-contain ">
                         <div className="grid-item">
                             <div className="grid-img">
-                                <img src={Img1} className='port-img' alt="" />
+                                <img src={Img7} className='port-img' alt="" />
                             </div>
                             <div className="grid-txt">
                                 <h2 className="">Non-disclosure </h2>
@@ -149,7 +154,7 @@ const PortfolioSection = () => {
                     <div className="grid-contain">
                         <div className="grid-item">
                             <div className="grid-img">
-                                <img src={Img1} className='port-img' alt="" />
+                                <img src={Img8} className='port-img' alt="" />
                             </div>
                             <div className="grid-txt">
                                 <h2 className="">Non-disclosure </h2>
