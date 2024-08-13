@@ -1,12 +1,7 @@
 import React from 'react'
+import { navlinks } from '../constants'
 
 const Footer = () => {
-    const links = [
-        { url: "#", title: "Home" },
-        { url: "#about", title: "About" },
-        { url: "#portfolio", title: "Portfolio" },
-        { url: "#contact", title: "Contact" }
-    ]
 
     return (
         <div className="bg-darkBrown">
@@ -18,7 +13,14 @@ const Footer = () => {
             <div className="">
                 <div className="">
                     <div className="">
+                        {navlinks.map(link => (
+                            <div key={link.title}>
+                                <a href={link.url}>
+                                    {link.title}
+                                </a>
+                            </div>
 
+                        ))}
                     </div>
                     <div className=""></div>
                     <div className=""></div>
