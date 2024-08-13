@@ -7,8 +7,8 @@ export const navlinks = [
 ]
 
 export const portfolio = [
-    { url: "#", title: "Architecture" },
-    { url: "#about", title: "Interior" },
-    { url: "#portfolio", title: "Planning" },
-    { url: "#contact", title: "Furniture" }
+    { url: "#architecture", title: "Architecture" },
+    { url: "#interior", title: "Interior" },
+    { url: "#planning", title: "Planning" },
+    { url: "#furniture", title: "Furniture" }
 ]
