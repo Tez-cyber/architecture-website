@@ -1,14 +1,9 @@
 import { useState } from 'react'
 import { FaInstagram, FaFacebookSquare, FaTwitter, FaLinkedin, FaLongArrowAltRight } from "react-icons/fa";
+import { navlinks } from '../constants';
 
 const Navbar = () => {
     const [openNav, setOpenNav] = useState(false)
-    const links = [
-        { url: "#", title: "Home" },
-        { url: "#about", title: "About" },
-        { url: "#portfolio", title: "Portfolio" },
-        { url: "#contact", title: "Contact" }
-    ]
 
     return (
         <div
@@ -38,7 +33,7 @@ const Navbar = () => {
                     <div className=""></div>
                     <div className="flex gap-5 z-50 font-semibold text-lg">
                         {
-                            links.map(link => (
+                            navlinks.map(link => (
                                 <a href={link.url} key={link.title} className='hover:text-darkCream'>
                                     {link.title}
                                 </a>
@@ -62,7 +57,7 @@ const Navbar = () => {
                 {
                     openNav &&
                     <div className="absolute top-0 left-0 bg-black text-white flex h-screen w-screen flex-col items-center justify-center gap-8 text-4xl z-[60]">
-                        {links.map(link => (
+                        {navlinks.map(link => (
                             <div key={link.title}>
                                 <a href={link.url} onClick={() => setOpenNav(!openNav)}>
                                     {link.title}
