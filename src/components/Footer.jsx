@@ -19,7 +19,7 @@ const Footer = () => {
                         <div className="pb-5">
                             {navlinks.map(link => (
                                 <div key={link.title}>
-                                    <a href={link.url} className='text-gray-400 text-sm block pb-2'>
+                                    <a href={link.url} className='footer-links'>
                                         {link.title}
                                     </a>
                                 </div>
@@ -30,7 +30,7 @@ const Footer = () => {
                             {
                                 portfolio.map(item => (
                                     <div key={item.title}>
-                                        <a href={item.url} className='text-gray-400 text-sm block pb-2'>
+                                        <a href={item.url} className='footer-links'>
                                             {item.title}
                                         </a>
                                     </div>
@@ -50,24 +50,24 @@ const Footer = () => {
                             <p className="text-white pb-3">Legal</p>
                             {legal.map(term => (
                                 <div key={term.title}>
-                                    <a href={term.url} className='text-gray-400 text-sm block pb-2'>
+                                    <a href={term.url} className='footer-links'>
                                         {term.title}
                                     </a>
                                 </div>
                             ))}
-                            <a href="#" className='text-gray-400 text-sm block pb-2'>
+                            <a href="#" className='footer-links'>
                                 Cookies Preferences
                             </a>
                         </div>
                         <div className="lg:pl-20">
                             <p className="text-white pb-3">Contact</p>
                             <div className="">
-                                <div className="text-gray-400 text-sm block pb-2">
+                                <div className="footer-links">
                                     <span className="">
                                         Mail: <a href="mailto:info@goarch.com">info@goarch.com</a>
                                     </span>
                                 </div>
-                                <div className="text-gray-400 text-sm block pb-2">
+                                <div className="footer-links">
                                     <span className="">
                                         Tel: <a href="tel:+2347059269642">+234-705-926-9642</a>
                                     </span>
