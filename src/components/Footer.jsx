@@ -13,7 +13,7 @@ const Footer = () => {
                     </p>
                 </div>
                 {/* === Second flex === */}
-                <div className="flex flex-col lg:flex-row">
+                <div className="flex flex-col gap-20">
                     {/* ==== First section ==== */}
                     <div className="flex flex-col gap-10 lg:flex-row">
                         <div className="pb-5">
@@ -45,7 +45,36 @@ const Footer = () => {
                         </div>
                     </div>
                     {/* ==== Second section ==== */}
-                    <div className=""></div>
+                    <div className="flex flex-col gap-10 lg:flex-row">
+                        <div className="pb-5">
+                            <p className="text-white">Legal</p>
+                            {navlinks.map(link => (
+                                <div key={link.title}>
+                                    <a href={link.url} className='text-gray-400 text-sm block pb-2'>
+                                        {link.title}
+                                    </a>
+                                </div>
+
+                            ))}
+                        </div>
+                        <div className="lg:pl-52">
+                            {
+                                portfolio.map(item => (
+                                    <div key={item.title}>
+                                        <a href={item.url} className='text-gray-400 text-sm block pb-2'>
+                                            {item.title}
+                                        </a>
+                                    </div>
+                                ))
+                            }
+                        </div>
+                        <div className="lg:pl-14">
+                            <p className="text-white">Challenge us with your project</p>
+                            <div className="mt-10">
+                                <a href="#" className='bg-white px-5 py-3'>Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
