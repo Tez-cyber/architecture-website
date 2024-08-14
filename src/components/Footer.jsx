@@ -5,7 +5,7 @@ const Footer = () => {
 
     return (
         <div className="bg-darkBrown">
-            <div className="flex flex-col gap-20 px-8 py-20 lg:w-[1156px] lg:mx-auto lg:flex-row">
+            <div className="flex flex-col gap-20 px-8 pt-20 lg:w-[1156px] lg:mx-auto lg:flex-row">
                 {/* === First flex === */}
                 <div className="text-white text-2xl leading-tight lg:text-4xl lg:w-1/4">
                     <p className="">
@@ -84,6 +84,9 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="">
+                <h1 className="text-center text-[300px] text-white">GO.ARCH</h1>
             </div>
         </div>
     )
