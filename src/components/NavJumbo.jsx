@@ -17,8 +17,9 @@ const Navbar = () => {
                 </div>
                 {/* ====== Sidebar ====== */}
                 <div className="bg-darkBrown absolute bg-opacity-[0.8] w-1/2 h-screen">
-                    <div className="h-1/2"></div>
+                    <div className="h-1/3"></div>
                     <div className="flex flex-col items-center gap-4">
+                        <span className='block bg-white w-[1px] h-16'></span>
                         <a href="" className=""><FaInstagram size={20} /></a>
                         <a href="" className=""><FaFacebookSquare size={20} /></a>
                         <a href="" className=""><FaTwitter size={20} /></a>
