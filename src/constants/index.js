@@ -13,7 +13,7 @@ export const portfolio = [
     { url: "#furniture", title: "Furniture" }
 ]
 
-export const application = [
+export const legal = [
     { url: "#architecture", title: "Privacy" },
     { url: "#interior", title: "Terms & Conditions of Sale" },
     { url: "#planning", title: "Terms & Conditions of Rental" }

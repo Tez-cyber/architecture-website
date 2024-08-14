@@ -1,5 +1,5 @@
 import React from 'react'
-import { navlinks, portfolio } from '../constants'
+import { legal, navlinks, portfolio } from '../constants'
 
 const Footer = () => {
 
@@ -48,16 +48,15 @@ const Footer = () => {
                     <div className="flex flex-col gap-10 lg:flex-row">
                         <div className="pb-5">
                             <p className="text-white">Legal</p>
-                            {navlinks.map(link => (
-                                <div key={link.title}>
-                                    <a href={link.url} className='text-gray-400 text-sm block pb-2'>
-                                        {link.title}
+                            {legal.map(term => (
+                                <div key={term.title}>
+                                    <a href={term.url} className='text-gray-400 text-sm block pb-2'>
+                                        {term.title}
                                     </a>
                                 </div>
-
                             ))}
                         </div>
-                        <div className="lg:pl-52">
+                        <div className="lg:pl-20">
                             {
                                 portfolio.map(item => (
                                     <div key={item.title}>
