@@ -47,7 +47,7 @@ const Footer = () => {
                     {/* ==== Second section ==== */}
                     <div className="flex flex-col gap-10 lg:flex-row">
                         <div className="pb-5">
-                            <p className="text-white">Legal</p>
+                            <p className="text-white pb-3">Legal</p>
                             {legal.map(term => (
                                 <div key={term.title}>
                                     <a href={term.url} className='text-gray-400 text-sm block pb-2'>
@@ -55,22 +55,31 @@ const Footer = () => {
                                     </a>
                                 </div>
                             ))}
+                            <a href="#" className='text-gray-400 text-sm block pb-2'>
+                                Cookies Preferences
+                            </a>
                         </div>
                         <div className="lg:pl-20">
-                            {
-                                portfolio.map(item => (
-                                    <div key={item.title}>
-                                        <a href={item.url} className='text-gray-400 text-sm block pb-2'>
-                                            {item.title}
-                                        </a>
-                                    </div>
-                                ))
-                            }
+                            <p className="text-white pb-3">Contact</p>
+                            <div className="">
+                                <div className="text-gray-400 text-sm block pb-2">
+                                    <span className="">
+                                        Mail: <a href="mailto:info@goarch.com">info@goarch.com</a>
+                                    </span>
+                                </div>
+                                <div className="text-gray-400 text-sm block pb-2">
+                                    <span className="">
+                                        Tel: <a href="tel:+2347059269642">+234-705-926-9642</a>
+                                    </span>
+                                </div>
+                            </div>
                         </div>
-                        <div className="lg:pl-14">
-                            <p className="text-white">Challenge us with your project</p>
-                            <div className="mt-10">
-                                <a href="#" className='bg-white px-5 py-3'>Contact Us</a>
+                        <div className="lg:pl-1">
+                            <p className="text-white pb-3">Address</p>
+                            <div className="flex flex-col text-sm text-gray-400">
+                                <span>Avenue Robert Schuman</span>
+                                <span>112B-1400 Nivelles</span>
+                                <span>Belgium</span>
                             </div>
                         </div>
                     </div>
