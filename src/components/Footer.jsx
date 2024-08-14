@@ -59,18 +59,21 @@ const Footer = () => {
                                 Cookies Preferences
                             </a>
                         </div>
+                        {/* === Contact === */}
                         <div className="lg:pl-20">
                             <p className="text-white pb-3">Contact</p>
                             <div className="">
-                                <div className="footer-links">
-                                    <span className="">
-                                        Mail: <a href="mailto:info@goarch.com">info@goarch.com</a>
+                                <div className="flex text-sm text-gray-400">
+                                    <span className="mr-2">
+                                        Mail: 
                                     </span>
+                                    <a href="mailto:info@goarch.com" className='footer-links'>info@goarch.com</a>
                                 </div>
-                                <div className="footer-links">
-                                    <span className="">
-                                        Tel: <a href="tel:+2347059269642">+234-705-926-9642</a>
+                                <div className="flex text-sm text-gray-400">
+                                    <span className="mr-2">
+                                        Tel: 
                                     </span>
+                                    <a href="tel:+2347059269642" className='footer-links'>+234-705-926-9642</a>
                                 </div>
                             </div>
                         </div>
