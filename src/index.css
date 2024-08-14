@@ -50,4 +50,9 @@
   .grid-item:hover .grid-txt{
     @apply opacity-100 w-full
   }
+
+  /* ====== Footer links ====== */
+  .footer-links {
+    @apply text-gray-400 text-sm block pb-2
+  }
 }
