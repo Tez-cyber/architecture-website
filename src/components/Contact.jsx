@@ -7,7 +7,7 @@ const Contact = () => {
                 {/* ==== First Section ==== */}
                 <div className="flex flex-col gap-2 lg:w-[48%]">
                     <p className='text-darkCream text-[15px]'>Contact</p>
-                    <p className="text-2xl lg:text-[55px] leading-[1]">
+                    <p className="text-3xl leading-[1] md:text-5xl lg:text-[55px]">
                         Challenge us with
                         your project
                     </p>
