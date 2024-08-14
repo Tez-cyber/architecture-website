@@ -53,6 +53,6 @@
 
   /* ====== Footer links ====== */
   .footer-links {
-    @apply text-gray-400 text-sm block pb-2
+    @apply text-gray-400 text-sm block pb-2 hover:text-white
   }
 }
