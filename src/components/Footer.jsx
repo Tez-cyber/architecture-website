@@ -4,7 +4,7 @@ import { legal, navlinks, portfolio } from '../constants'
 const Footer = () => {
 
     return (
-        <div className="bg-darkBrown">
+        <div className="bg-darkBrown overflow-hidden">
             <div className="flex flex-col gap-20 px-8 pt-20 lg:w-[1156px] lg:mx-auto lg:flex-row">
                 {/* === First flex === */}
                 <div className="text-white text-2xl leading-tight lg:text-4xl lg:w-1/4">
@@ -85,8 +85,9 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+            {/* ===== Third Section ===== */}
             <div className="">
-                <h1 className="text-center text-[300px] text-white">GO.ARCH</h1>
+                <h1 className="text-center py-10 text-8xl text-white md:text-[156px] lg:text-[256px] md:py-5">GO.ARCH</h1>
             </div>
         </div>
     )
