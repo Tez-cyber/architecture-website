@@ -67,7 +67,7 @@
   }
   /* === values hover === */
   .section_col:hover .section_col_caption {
-    @apply text-white gap-10 hover:justify-center md:hover:justify-normal
+    @apply gap-10 hover:justify-center md:hover:justify-normal
   }
   .section_col:hover h6 {
     @apply block w-1/2 md:w-full
@@ -83,26 +83,22 @@
             before:h-full before:w-full before:bg-black/50 before:backdrop-blur-sm
   }
 
-
-
+  /* ===== section style ==== */
   .section {
     height: calc(100vh - 4rem);
     @apply h-full 
   }
-
   .section_col {
-    @apply relative border border-b-gray-300 overflow-hidden flex justify-center transition-all duration-500 md:hover:w-[50rem]
+    @apply relative border border-b-gray-300 overflow-hidden 
+           flex justify-center transition-all duration-[5s] ease-in-out
+           md:hover:w-[50rem]
   }
-  
-  
   .section_col_caption {
     @apply absolute w-full h-full px-5 text-center top-0 flex justify-between items-center overflow-hidden transition-all duration-700 md:justify-normal md:flex-col md:pt-20 
   }
-  
   .section_col_media {
     @apply w-full h-full 
   }
-
   img.section_col_img {
     @apply w-full h-full opacity-0
   }

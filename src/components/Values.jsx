@@ -3,7 +3,14 @@ import Img1 from '../assets/port-1.jpg'
 const Values = () => {
     return (
         <main className='w-full h-screen overflow-hidden md:p-8 '>
-            <div className="section relative w-full border border-gray-300 overflow-hidden md:rounded-[3.2rem]">
+            <div className="text-center pb-1">
+                <p className='text-darkCream text-[15px]'>Key advantages</p>
+                <p className="text-3xl leading-[1] md:text-5xl lg:text-[55px]">
+                    Choose excellence
+                    with <span className="text-darkCream">Go.arch</span>
+                </p>
+            </div>
+            <div className="section text-white bg-darkBrown relative w-full border border-gray-300 overflow-hidden md:rounded-[3.2rem]">
                 <div className="flex flex-col w-full h-[inherit] overflow-hidden md:flex-row">
                     {/* ===== First Element */}
                     <div className="section_col">
