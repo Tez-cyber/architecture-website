@@ -62,6 +62,7 @@ const Contact = () => {
                             <Select
                                 options={countries}
                                 value={selectedCountry}
+                                onChange={(selectedCountry) => setSelectedCountry(selectedCountry)}
                             />
                         </div>
                     </form>
