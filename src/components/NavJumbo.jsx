@@ -7,8 +7,8 @@ const Navbar = () => {
 
     return (
         <div
-            className="relative bg-jumbotron before:bg-black bg-cover bg-center h-screen
-                      before:absolute before:h-full before:w-full before:opacity-[.75] "
+            className="relative bg-jumbotron before:bg-black bg-cover bg-center h-[80vh]
+                      before:absolute before:h-full before:w-full before:opacity-[.75]"
         >
             <div className=' text-white absolute z-[60]'>
                 <div className="bg-darkBrown bg-opacity-[0.8] w-fit px-14 py-4 flex flex-col gap-4">
@@ -69,8 +69,8 @@ const Navbar = () => {
                     </div>
                 }
             </div>
-            {/*------------------- jumbotron */}
-            <div className="text-white mx-16 my-60 z-50 absolute right-0 top-[15%] md:top-[25%] md:my-44 lg:right-40">
+            {/* =============== JUMBOTRON ============ */}
+            <div className="text-white mx-16 my-60 z-50 absolute right-0 top-[15%] md:my-44 lg:right-40">
                 <div className='flex flex-col gap-4 items-center justify-center md:items-end '>
                     <h1 className='text-3xl text-center font-semibold tracking-wide uppercase md:text-4xl lg:text-5xl md:tracking-widest'>Concert hall in new york</h1>
                     <p className='text-center text-lg mx-5 md:text-end md:w-sContain md:mx-0'>
