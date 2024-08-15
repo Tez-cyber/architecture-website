@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Select from 'react-select'
 
 const Contact = () => {
-    const [countries, setCountries] = useState([])
+    const [countries, setCountries] = useState([''])
     const [selectedCountry, setSelectedCountry] = useState({})
 
     // ======= useEffect
@@ -53,18 +53,30 @@ const Contact = () => {
                             <input type="email" className="w-full p-4 outline-darkCream" placeholder='Email' />
                         </div>
                         {/* ========= Message */}
-                        <div className="w-full">
+                        <div className="w-full pb-2">
                             <p className="pb-3 text-xl">Message <span className="text-xl text-darkBrown">*</span></p>
                             <textarea type="email" className="w-full h-28 p-4 outline-darkCream" placeholder='Email' />
                         </div>
                         {/* ======== Select Country */}
-                        <div className="">
+                        <div className="w-full pb-2">
                             <p className="pb-3 text-xl">Country <span className="text-xl text-darkBrown">*</span></p>
                             <Select
                                 options={countries}
                                 value={selectedCountry}
+                                defaultValue={"Select a Country"}
                                 onChange={(selectedCountry) => setSelectedCountry(selectedCountry)}
                             />
+                        </div>
+                        {/* ========== Phone No. and Company Name */}
+                        <div className="w-full flex flex-col gap-5 pb-2 md:flex-row">
+                            <div className="w-full">
+                                <p className="pb-3 text-xl">Phone Number<span className="text-xl text-darkBrown">*</span></p>
+                                <input type="text" className="w-full p-4 outline-darkCream" placeholder='Phone Number' />
+                            </div>
+                            <div className="w-full">
+                                <p className="pb-3 text-xl">Company Name<span className="text-xl text-darkBrown">*</span></p>
+                                <input type="text" className="w-full p-4 outline-darkCream" placeholder='Company Name' />
+                            </div>
                         </div>
                     </form>
                 </div>
