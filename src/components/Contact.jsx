@@ -79,7 +79,11 @@ const Contact = () => {
                             </div>
                         </div>
                         {/* ====== Submit ======= */}
-                        <button>Submit</button>
+                        <div className="my-5">
+                        <button type='submit' className='bg-darkBrown my-5 text-white px-5 py-4 transition-all hover:bg-inherit hover:text-darkBrown hover:border-[2px] hover:border-darkBrown'>
+                            Send Message
+                        </button>
+                        </div>
                     </form>
                 </div>
             </div>
