@@ -19,18 +19,18 @@ export default {
         "lightCream": "#c0a27e",
       },
       animation: {
-        down: 'moveDown .5s linear'
+        down: 'incWidth .5s linear'
       },
       keyframes:{
-        moveDown: {
+        incWidth: {
           "0%": {
-            top: "60%"
+            width: "20rem"
           },
           "50%": {
-            top: "70%"
+            width: "35rem"
           },
           "100%": {
-            top: "75%"
+            width: "50rem"
           },
         }
       }
