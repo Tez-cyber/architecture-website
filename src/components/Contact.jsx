@@ -83,7 +83,7 @@ const Contact = () => {
                         <button type='submit' className='bg-darkBrown my-5 text-white px-5 py-4 transition-all hover:bg-inherit hover:text-darkBrown hover:border-[2px] hover:border-darkBrown'>
                             Send Message
                         </button>
-                        </div>
+                        </div> 
                     </form>
                 </div>
             </div>
