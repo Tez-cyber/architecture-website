@@ -78,6 +78,8 @@ const Contact = () => {
                                 <input type="text" className="w-full p-4 outline-darkCream" placeholder='Company Name' />
                             </div>
                         </div>
+                        {/* ====== Submit ======= */}
+                        <button>Submit</button>
                     </form>
                 </div>
             </div>
