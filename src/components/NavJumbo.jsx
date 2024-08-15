@@ -70,7 +70,7 @@ const Navbar = () => {
                 }
             </div>
             {/* =============== JUMBOTRON ============ */}
-            <div className="text-white mx-16 my-60 z-50 absolute right-0 top-[15%] md:my-44 lg:right-40">
+            <div className="text-white mx-16 my-60 z-50 absolute right-0 md:top-[15%] md:my-44 lg:right-40">
                 <div className='flex flex-col gap-4 items-center justify-center md:items-end '>
                     <h1 className='text-3xl text-center font-semibold tracking-wide uppercase md:text-4xl lg:text-5xl md:tracking-widest'>Concert hall in new york</h1>
                     <p className='text-center text-lg mx-5 md:text-end md:w-sContain md:mx-0'>
