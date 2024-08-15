@@ -57,6 +57,10 @@ const Contact = () => {
                             <p className="pb-3 text-xl">Message <span className="text-xl text-darkBrown">*</span></p>
                             <textarea type="email" className="w-full h-28 p-4 outline-darkCream" placeholder='Email' />
                         </div>
+                        {/* ======== Select Country */}
+                        <div className="">
+                            <Select />
+                        </div>
                     </form>
                 </div>
             </div>
