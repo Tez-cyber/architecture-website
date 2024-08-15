@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
     return (
-        <div className="bg-gray-100">
+        <div className="bg-gray-200">
             <div className="flex flex-col gap-24 px-8 py-10 lg:w-[1156px] lg:mx-auto lg:flex-row">
                 {/* ==== First Section ==== */}
                 <div className="flex flex-col gap-2 lg:w-[48%]">
