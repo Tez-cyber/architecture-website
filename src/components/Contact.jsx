@@ -59,7 +59,10 @@ const Contact = () => {
                         </div>
                         {/* ======== Select Country */}
                         <div className="">
-                            <Select />
+                            <Select
+                                options={countries}
+                                value={selectedCountry}
+                            />
                         </div>
                     </form>
                 </div>
