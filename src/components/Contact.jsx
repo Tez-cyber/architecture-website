@@ -7,16 +7,16 @@ const Contact = () => {
 
     // ======= useEffect
     useEffect
-    (() => {
-      fetch(
-        "https://valid.layercode.workers.dev/list/countries?format=select&flags=true&value=code"
-      )
-        .then(res => res.json())
-        .then(data => {
-            setCountries(data.countries)
-            setSelectedCountry(data.userSelectValue)
-        })
-    }, [])
+        (() => {
+            fetch(
+                "https://valid.layercode.workers.dev/list/countries?format=select&flags=true&value=code"
+            )
+                .then(res => res.json())
+                .then(data => {
+                    setCountries(data.countries)
+                    setSelectedCountry(data.userSelectValue)
+                })
+        }, [])
     return (
         <div className="bg-gray-200">
             <div className="flex flex-col gap-24 px-8 py-10 lg:w-[1156px] lg:mx-auto lg:flex-row">
@@ -59,6 +59,7 @@ const Contact = () => {
                         </div>
                         {/* ======== Select Country */}
                         <div className="">
+                            <p className="pb-3 text-xl">Country <span className="text-xl text-darkBrown">*</span></p>
                             <Select
                                 options={countries}
                                 value={selectedCountry}
