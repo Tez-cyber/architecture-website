@@ -18,6 +18,8 @@
 } */
 
 @layer utilities {
+  /* =================== NavJumbo Section ============================ */
+  /* =================== Portfolio Section ============================ */
   .port-div {
     @apply w-1/2 h-1/2
   }

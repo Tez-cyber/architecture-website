@@ -49,7 +49,7 @@ const Navbar = () => {
                     <div className=""></div>
                     <button 
                         onClick={() => setOpenNav(!openNav)}
-                        className="flex flex-col gap-2 z-[70]">
+                        className="nav_button flex flex-col gap-2 z-[70]">
                         <span className="firstNav w-4 h-1 bg-white rounded"></span>
                         <span className="w-7 h-1 bg-white rounded"></span>
                         <span className="w-10 h-1 bg-white rounded"></span>
