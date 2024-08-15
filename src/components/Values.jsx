@@ -2,7 +2,7 @@ import React from 'react'
 import Img1 from '../assets/port-1.jpg'
 const Values = () => {
     return (
-        <main className='w-full h-screen overflow-hidden md:p-8 '>
+        <main className='w-full h-screen flex flex-col gap-10 overflow-hidden md:p-8 md:h-[80vh] lg:h-screen'>
             <div className="text-center pb-1">
                 <p className='text-darkCream text-[15px]'>Key advantages</p>
                 <p className="text-3xl leading-[1] md:text-5xl lg:text-[55px]">

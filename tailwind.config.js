@@ -19,7 +19,7 @@ export default {
         "lightCream": "#c0a27e",
       },
       animation: {
-        down: 'incWidth .5s linear'
+        incWidth: 'incWidth .5s linear'
       },
       keyframes:{
         incWidth: {
