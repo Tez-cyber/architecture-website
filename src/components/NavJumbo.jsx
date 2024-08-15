@@ -49,10 +49,10 @@ const Navbar = () => {
                     <div className=""></div>
                     <button 
                         onClick={() => setOpenNav(!openNav)}
-                        className="nav_button flex flex-col gap-2 z-[70]">
-                        <span className="firstNav w-4 h-1 bg-white rounded"></span>
-                        <span className="w-7 h-1 bg-white rounded"></span>
-                        <span className="w-10 h-1 bg-white rounded"></span>
+                        className="nav_button flex flex-col gap-2 z-[70] transition-all duration-200">
+                        <span className="firstNav w-4 h-1 bg-white rounded transition-all duration-200 ease-in-out"></span>
+                        <span className="w-7 h-1 bg-white rounded transition-all duration-200"></span>
+                        <span className="w-10 h-1 bg-white rounded transition-all duration-200"></span>
                     </button>
                 </div>
                 {
@@ -73,7 +73,7 @@ const Navbar = () => {
             <div className="text-white mx-16 my-60 z-50 absolute right-0 md:top-[15%] md:my-44 lg:right-40">
                 <div className='flex flex-col gap-4 items-center justify-center md:items-end '>
                     <h1 className='text-3xl text-center font-semibold tracking-wide uppercase md:text-4xl lg:text-5xl md:tracking-widest'>Concert hall in new york</h1>
-                    <p className='text-center text-lg mx-5 md:text-end md:w-sContain md:mx-0'>
+                    <p className='text-center text-lg mx-5 text-gray-300 md:text-end md:w-sContain md:mx-0'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Odit quos veritatis quam! Maiores fugit harum vero aliquid?
                         Quae, maiores neque!

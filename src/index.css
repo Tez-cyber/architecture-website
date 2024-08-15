@@ -19,6 +19,9 @@
 
 @layer utilities {
   /* =================== NavJumbo Section ============================ */
+  .nav_button:hover span:nth-child(1) {
+    @apply w-10
+  }
   /* =================== Portfolio Section ============================ */
   .port-div {
     @apply w-1/2 h-1/2
