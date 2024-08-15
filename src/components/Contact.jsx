@@ -1,6 +1,22 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import Select from 'react-select'
 
 const Contact = () => {
+    const [countries, setCountries] = useState([])
+    const [selectedCountry, setSelectedCountry] = useState({})
+
+    // ======= useEffect
+    useEffect
+    (() => {
+      fetch(
+        "https://valid.layercode.workers.dev/list/countries?format=select&flags=true&value=code"
+      )
+        .then(res => res.json())
+        .then(data => {
+            setCountries(data.countries)
+            setSelectedCountry(data.userSelectValue)
+        })
+    }, [])
     return (
         <div className="bg-gray-200">
             <div className="flex flex-col gap-24 px-8 py-10 lg:w-[1156px] lg:mx-auto lg:flex-row">
