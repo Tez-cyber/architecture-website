@@ -1,7 +1,9 @@
 import React from 'react'
 import { legal, navlinks, portfolio } from '../constants'
+import Select from 'react-select'
 
 const Footer = () => {
+    const [countries, setCountries] = useState([])
 
     return (
         <div className="bg-darkBrown overflow-hidden">
