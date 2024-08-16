@@ -3,6 +3,7 @@ import Contact from "./components/Contact"
 import Footer from "./components/Footer"
 import NavJumbo from "./components/NavJumbo"
 import PortfolioSection from "./components/PortfolioSection"
+import Values from "./components/Values"
 import Vision from "./components/Vision"
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <AboutSection />
         <Vision />
         <PortfolioSection />
+        <Values />
         <Contact />
         <Footer />
       </div>
