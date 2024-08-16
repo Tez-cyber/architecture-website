@@ -51,6 +51,8 @@
     @apply opacity-100 w-full
   }
 
+  /* ====== Values Section ====== */
+  
   /* ====== Footer links ====== */
   .footer-links {
     @apply text-gray-400 text-sm block pb-2 transition-all duration-200 hover:text-white
