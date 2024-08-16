@@ -52,7 +52,12 @@
   }
 
   /* ====== Values Section ====== */
-  
+  .section {
+    height: calc(100vh - 4rem);
+  }
+  .section_col {
+    @apply relative w-[60rem] border-r border-r-gray-200 px-16 py-32 flex flex-col justify-between items-center cursor-pointer transition-all overflow-hidden
+  }
   /* ====== Footer links ====== */
   .footer-links {
     @apply text-gray-400 text-sm block pb-2 transition-all duration-200 hover:text-white
