@@ -51,13 +51,63 @@
     @apply opacity-100 w-full
   }
 
-  /* ====== Values Section ====== */
+  /* =================== Values Section ============================ */
+  /* === values font === */
+  .section_col h1 {
+    @apply text-[8rem] md:text-[25rem] md:leading-[.8]
+  }
+  .section_col h2 {
+    @apply text-4xl md:text-6xl md:pb-5
+  }
+  .section_col p {
+    @apply md:text-[1rem]
+  }
+  .section_col h6 {
+    @apply hidden uppercase md:text-[1rem] 
+  }
+  /* === values hover === */
+  .section_col:hover .section_col_caption {
+    @apply text-white gap-10 hover:justify-center md:hover:justify-normal
+  }
+  .section_col:hover h6 {
+    @apply block w-1/2 md:w-full
+  }
+  .section_col:hover h2 {
+    @apply hidden md:block
+  }
+  .section_col:hover img.section_col_img {
+    @apply opacity-[1] 
+  }
+  .section_col:hover .section_col_media {
+    @apply before:content-[''] before:absolute before:left-0 before:right-0 
+            before:h-full before:w-full before:bg-black/50 before:backdrop-blur-sm
+  }
+
+
+
   .section {
     height: calc(100vh - 4rem);
+    @apply h-full 
   }
+
   .section_col {
-    @apply relative w-[60rem] border-r border-r-gray-200 px-16 py-32 flex flex-col justify-between items-center cursor-pointer transition-all overflow-hidden
+    @apply relative border border-b-gray-300 overflow-hidden flex justify-center transition-all duration-500 md:hover:w-[50rem]
   }
+  
+  
+  .section_col_caption {
+    @apply absolute w-full h-full px-5 text-center top-0 flex justify-between items-center overflow-hidden transition-all duration-700 md:justify-normal md:flex-col md:pt-20 
+  }
+  
+  .section_col_media {
+    @apply w-full h-full 
+  }
+
+  img.section_col_img {
+    @apply w-full h-full opacity-0
+  }
+
+
   /* ====== Footer links ====== */
   .footer-links {
     @apply text-gray-400 text-sm block pb-2 transition-all duration-200 hover:text-white
