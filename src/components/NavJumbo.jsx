@@ -7,7 +7,7 @@ const Navbar = () => {
 
     return (
         <div
-            className="relative bg-jumbotron before:bg-black bg-cover bg-center h-[80vh]
+            className="relative bg-jumbotron before:bg-black bg-cover bg-center h-screen
                       before:absolute before:h-full before:w-full before:opacity-[.75]"
         >
             <div className=' text-white absolute z-[60]'>
@@ -70,15 +70,17 @@ const Navbar = () => {
                 }
             </div>
             {/* =============== JUMBOTRON ============ */}
-            <div className="text-white mx-16 my-60 z-50 absolute right-0 top-[5%] md:top-[15%] md:my-44 lg:right-40">
-                <div className='flex flex-col gap-4 items-center justify-center md:items-end '>
-                    <h1 className='text-3xl text-center font-semibold tracking-wide uppercase md:text-4xl lg:text-5xl md:tracking-widest'>Concert hall in new york</h1>
-                    <p className='text-center text-lg mx-5 text-gray-300 md:text-end md:w-sContain md:mx-0'>
+            <div className="text-white mx-16 z-50 absolute right-0 top-[40%] md:top-[15%] md:my-44 lg:right-20">
+                <div className='flex flex-col gap-5 items-end justify-center md:items-end md:gap-10'>
+                    <h1 className='text-3xl w-[18.75rem] text-end font-semibold tracking-wide uppercase md:w-[700px] md:text-4xl md:tracking-widest md:leading-5 md:text-end lg:text-5xl'>
+                        Concert hall in new york
+                    </h1>
+                    <p className='text-base ml-5 w-[18.75rem] text-gray-300 text-end md:w-sContain md:mx-0'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Odit quos veritatis quam! Maiores fugit harum vero aliquid?
                         Quae, maiores neque!
                     </p>
-                    <div className='bg-lightCream px-10 py-2 rounded-[25px] font-semibold text-lg flex items-center justify-center gap-2'>
+                    <div className='bg-lightCream px-5 py-1 rounded-[25px] font-semibold text-lg flex items-center justify-center gap-2 md:px-10 md:py-2'>
                         <a href="" b className='block'>
                             See project
                         </a>
