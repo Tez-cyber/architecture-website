@@ -16,7 +16,7 @@ const Navbar = () => {
                     <p className="text-4xl pb-20 text-[#a39280]">01</p>
                 </div>
                 {/* ====== Sidebar ====== */}
-                <div className="bg-darkBrown absolute bg-opacity-[0.8] w-1/2 h-[80vh]">
+                <div className="bg-darkBrown absolute bg-opacity-[0.8] w-1/2 h-screen">
                     <div className="h-[30%]"></div>
                     <div className="flex flex-col items-center gap-4">
                         <span className='block bg-white w-[1px] h-16'></span>
