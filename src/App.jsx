@@ -10,7 +10,7 @@ function App() {
   
   return (
     <>
-      <div className="">
+      <div className="overflow-hidden">
         <NavJumbo />
         <AboutSection />
         <Vision />

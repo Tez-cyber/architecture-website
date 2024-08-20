@@ -59,7 +59,7 @@
   /* =================== Values Section ============================ */
   /* === values font === */
   .section_col h1 {
-    @apply text-[8rem] lg:text-[25rem] lg:leading-[.8]
+    @apply text-[8rem] md:pb-3 lg:text-[20rem] lg:leading-[.8]
   }
   .section_col h2 {
     @apply text-4xl md:text-3xl lg:pb-5
@@ -71,6 +71,10 @@
     @apply hidden uppercase md:text-[1rem] 
   }
   /* === values hover === */
+  .section_col:hover h1 {
+    @apply text-[8rem] lg:text-[15rem]
+  }
+
   .section_col:hover .section_col_caption {
     @apply gap-10 hover:justify-center md:hover:justify-normal md:gap-0
   }
@@ -90,13 +94,17 @@
   }
   /* ===== section style ==== */
   .section {
-    height: calc(100vh - 4rem);
+    /* height: calc(100vh - 4rem); */
     @apply h-full 
   }
   .section_col {
-    @apply relative border border-b-gray-300 overflow-hidden 
+    @apply relative border border-b-gray-300 overflow-hidden pb-4 
            flex justify-center transition-all duration-[5s] ease-in-out
            md:hover:w-[40rem] 
+  }
+
+  .section_col:last-child {
+    @apply border-none
   }
   .section_col_caption {
     @apply absolute w-full h-full px-5 text-center top-0 flex 
