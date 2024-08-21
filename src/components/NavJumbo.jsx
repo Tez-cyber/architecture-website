@@ -11,13 +11,13 @@ const Navbar = () => {
                       before:absolute before:h-full before:w-full before:opacity-[.75]"
         >
             <div className=' text-white absolute z-[60]'>
-                <div className="bg-darkBrown bg-opacity-[0.8] w-fit px-14 py-4 flex flex-col gap-4">
-                    <p className="font-bold text-xl">arch.Ex</p>
-                    <p className="text-4xl pb-20 text-[#a39280]">01</p>
+                <div className="bg-darkBrown/60 w-fit px-14 py-7 flex flex-col gap-4">
+                    <p className="font-semibold text-xl capitalize">arch.Ex</p>
+                    {/* <p className="text-4xl pb-20 text-[#a39280]">01</p> */}
                 </div>
                 {/* ====== Sidebar ====== */}
                 <div className=" absolute bg-opacity-[0.8] w-1/2 h-screen">
-                    <div className="h-[30%]"></div>
+                    <div className="h-1/2"></div>
                     <div className="flex flex-col items-center gap-4">
                         <span className='block bg-white w-[1px] h-16'></span>
                         <a href="" className=""><FaInstagram size={20} /></a>
