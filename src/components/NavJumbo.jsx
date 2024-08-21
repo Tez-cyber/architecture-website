@@ -12,7 +12,7 @@ const Navbar = () => {
         >
             <div className=' text-white absolute z-[60]'>
                 <div className="bg-darkBrown bg-opacity-[0.8] w-fit px-14 py-4 flex flex-col gap-4">
-                    <p className="font-bold text-xl">go.arch</p>
+                    <p className="font-bold text-xl">arch.Ex</p>
                     <p className="text-4xl pb-20 text-[#a39280]">01</p>
                 </div>
                 {/* ====== Sidebar ====== */}

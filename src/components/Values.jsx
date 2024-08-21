@@ -7,7 +7,7 @@ const Values = () => {
                 <p className='text-darkCream text-[15px]'>Key advantages</p>
                 <p className="text-3xl leading-[1] md:text-5xl lg:text-[55px]">
                     Choose excellence
-                    with <span className="text-darkCream">Go.arch</span>
+                    with <span className="text-darkCream">arch.Ex</span>
                 </p>
             </div>
             <div className="section text-white bg-darkBrown/85 relative w-full overflow-hidden md:rounded-[3.2rem]">

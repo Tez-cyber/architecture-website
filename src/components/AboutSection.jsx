@@ -7,7 +7,7 @@ const AboutSection = () => {
         <div className='bg-darkBrown text-white pb-20'>
             <div className="py-20 flex items-center justify-center gap-2 text-3xl uppercase tracking-widest">
                 <h2 className="">about</h2>
-                <h2 className="text-lightCream">go.arch</h2>
+                <h2 className="text-lightCream">arch.Ex</h2>
             </div>
             <div className="flex flex-col gap-10 mx-10 md:flex-row md:gap-6 md:items-start lg:w-[1024px] lg:mx-auto lg:gap-14 ">
                 {/* -----------------first section */}

@@ -90,7 +90,7 @@ const Footer = () => {
             </div>
             {/* ===== Third Section ===== */}
             <div className="">
-                <h1 className="text-center py-10 text-8xl text-white md:text-[156px] lg:text-[256px] md:py-10">GO.ARCH</h1>
+                <h1 className="text-center py-10 text-8xl uppercase  text-white md:text-[156px] lg:text-[256px] md:py-10">arch.Ex</h1>
             </div>
         </div>
     )
