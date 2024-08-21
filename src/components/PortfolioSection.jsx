@@ -9,38 +9,12 @@ import Img7 from "../assets/port-5.jpg"
 import Img8 from "../assets/img-4.jpg"
 
 const PortfolioSection = () => {
-    const images = [
-        {
-            id: 1,
-            src: Img1,
-            title: "residential care",
-            location: "in paris"
-        },
-        {
-            id: 2,
-            src: Img1,
-            title: "residential care",
-            location: "in berlin"
-        },
-        {
-            id: 3,
-            src: Img1,
-            title: "concert hall",
-            location: "in new york"
-        },
-        {
-            id: 4,
-            src: Img1,
-            title: "modern hall",
-            location: "in london"
-        }
-    ]
     return (
         <div className="mb-20">
             {/* ======== Heading ========= */}
             <div className="py-20 text-center items-center justify-center gap-2 text-3xl uppercase tracking-widest md:flex">
                 <h2>Hold up. Check out our amazing <span className='text-darkCream md:hidden'>projects.</span></h2>
-                <h2 className='text-darkCream hidden md:block'>projects.</h2>
+                <h2 className='text-darkCream font-semibold hidden md:block'>projects.</h2>
             </div>
             {/* ========= Content ========= */}
             <div className="mx-3 md:mx-auto md:w-4/5 ">
