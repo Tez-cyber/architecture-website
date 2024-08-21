@@ -13,13 +13,13 @@ const Vision = () => {
                 <div className="text-white flex flex-col gap-5">
                     <h2 className='text-[32px]'>Let us turn your vision into reality</h2>
                     <p className="text-lg">
-                        <span className="text-lightCream font-semibold text-xl">arch.Ex</span> delivers modular building solutions that blend 
+                        <span className="text-lightCream capitalize font-semibold text-xl">arch.Ex</span> delivers modular building solutions that blend 
                         efficiency with premium aesthetics, ensuring each project is seamless and impactful. 
                         Our approach allows you to meet tight timelines and high expectations with ease, 
                         while turning your creative vision into reality.
                     </p>
                     <div className="mt-4">
-                        <a href="#" className='bg-white text-black px-3 py-4 rounded-md'>Discover arch.Ex</a>
+                        <a href="#" className='bg-white text-black px-3 py-4 font-semibold capitalize rounded-md'>Discover arch.Ex</a>
                     </div>
                 </div>
             </div>
