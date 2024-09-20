@@ -1,9 +1,38 @@
 import { useState } from 'react'
 import { FaInstagram, FaFacebookSquare, FaTwitter, FaLinkedin, FaLongArrowAltRight } from "react-icons/fa";
 import { navlinks } from '../constants';
+import { motion } from "framer-motion"
 
 const Navbar = () => {
     const [openNav, setOpenNav] = useState(false)
+
+
+    // ======= variants for nav button usinf framer
+    const topElement = {
+        closed: {
+            rotate: 0
+        },
+        opened: {
+            rotate: 45
+        }
+    }
+    const centerElement = {
+        closed: {
+            opacity: 1
+        },
+        opened: {
+            opacity: 0
+        }
+    }
+    const bottomElement = {
+        closed: {
+            rotate: 0
+        },
+        opened: {
+            rotate: -45,
+            backgroundColor: "rgb(255, 255, 255)"
+        }
+    }
 
     return (
         <div
@@ -49,9 +78,9 @@ const Navbar = () => {
                     <button 
                         onClick={() => setOpenNav(!openNav)}
                         className="nav_button flex flex-col gap-2 z-[70] transition-all duration-200">
-                        <span className="firstNav w-4 h-1 bg-white rounded transition-all duration-200 ease-in-out"></span>
-                        <span className="w-7 h-1 bg-white rounded transition-all duration-200"></span>
-                        <span className="w-10 h-1 bg-white rounded transition-all duration-200"></span>
+                        <motion.span variants={topElement} className="firstNav w-4 h-1 bg-white rounded transition-all duration-200 ease-in-out"></motion.span>
+                        <motion.span variants={centerElement} className="w-7 h-1 bg-white rounded transition-all duration-200"></motion.span>
+                        <motion.span variants={bottomElement} className="w-10 h-1 bg-white rounded transition-all duration-200"></motion.span>
                     </button>
                 </div>
                 {
