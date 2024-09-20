@@ -12,15 +12,13 @@
 }
 
 
-/* button:hover .firstNav {
-  width: 100%;
-  transition: all .2s ease-out;
-} */
-
 @layer utilities {
   /* =================== NavJumbo Section ============================ */
+  .nav_button span:nth-child(1) {
+    @apply transition-all ease-in-out delay-100 duration-200
+  }
   .nav_button:hover span:nth-child(1) {
-    @apply w-10
+    @apply w-10 
   }
   /* =================== Portfolio Section ============================ */
   .port-div {
