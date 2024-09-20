@@ -13,11 +13,10 @@ const Navbar = () => {
             <div className=' text-white absolute z-[60]'>
                 <div className="bg-darkBrown/60 w-fit px-14 py-7 flex flex-col gap-4">
                     <p className="font-semibold text-xl capitalize">arch.Ex</p>
-                    {/* <p className="text-4xl pb-20 text-[#a39280]">01</p> */}
                 </div>
                 {/* ====== Sidebar ====== */}
                 <div className=" absolute bg-opacity-[0.8] w-1/2 h-screen">
-                    <div className="h-1/2"></div>
+                    <div className="h-1/3       "></div>
                     <div className="flex flex-col items-center gap-4">
                         <span className='block bg-white w-[1px] h-16'></span>
                         <a href="" className=""><FaInstagram size={20} /></a>
@@ -27,7 +26,7 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
-            {/*---------------------- Navbar */}
+            {/* =========== Navbar ============ */}
             <div className="hidden md:flex">
                 <div className=""></div>
                 <div className="text-white py-5 flex justify-between mx-auto lg:w-contain">
@@ -43,7 +42,7 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
-            {/* Navbar Mobile */}
+            {/* ============ Navbar Mobile ============ */}
             <div className="md:hidden">
                 <div className="flex absolute right-10 my-10">
                     <div className=""></div>
@@ -70,7 +69,7 @@ const Navbar = () => {
                 }
             </div>
             {/* =============== JUMBOTRON ============ */}
-            <div className="text-white mx-16 z-50 absolute right-0 top-[40%] md:top-[15%] md:my-44 lg:right-20">
+            <div className="text-white mx-16 z-50 absolute right-0 top-[40%] md:top-[8%] md:my-44 lg:right-20">
                 <div className='flex flex-col gap-5 items-end justify-center md:items-end md:gap-10'>
                     <h1 className='text-3xl w-[18.75rem] text-end font-semibold tracking-wide uppercase md:w-[700px] md:text-4xl md:tracking-widest md:leading-5 md:text-end lg:text-5xl'>
                         Concert hall in new york
