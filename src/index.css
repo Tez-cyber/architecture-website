@@ -14,12 +14,12 @@
 
 @layer utilities {
   /* =================== NavJumbo Section ============================ */
-  .nav_button span:nth-child(1) {
+  /* .nav_button span:nth-child(1) {
     @apply transition-all ease-in-out delay-100 duration-200
   }
   .nav_button:hover span:nth-child(1) {
     @apply w-10 
-  }
+  } */
   /* =================== Portfolio Section ============================ */
   .port-div {
     @apply w-1/2 h-1/2

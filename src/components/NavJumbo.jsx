@@ -13,7 +13,8 @@ const Navbar = () => {
             rotate: 0
         },
         opened: {
-            rotate: 45
+            rotate: 40,
+            width: "2.5rem"
         }
     }
     const centerElement = {
@@ -29,8 +30,7 @@ const Navbar = () => {
             rotate: 0
         },
         opened: {
-            rotate: -45,
-            backgroundColor: "rgb(255, 255, 255)"
+            rotate: -45
         }
     }
 
@@ -77,10 +77,10 @@ const Navbar = () => {
                     <div className=""></div>
                     <button 
                         onClick={() => setOpenNav(!openNav)}
-                        className="nav_button flex flex-col gap-2 z-[70] transition-all duration-200">
-                        <motion.span variants={topElement} className="firstNav w-4 h-1 bg-white rounded transition-all duration-200 ease-in-out"></motion.span>
-                        <motion.span variants={centerElement} className="w-7 h-1 bg-white rounded transition-all duration-200"></motion.span>
-                        <motion.span variants={bottomElement} className="w-10 h-1 bg-white rounded transition-all duration-200"></motion.span>
+                        className="nav_button flex flex-col gap-2 z-[70]">
+                        <motion.span variants={topElement} animate={openNav ? "opened" : "closed"} className="firstNav w-4 h-1 bg-white rounded origin-left"></motion.span>
+                        <motion.span variants={centerElement} animate={openNav ? "opened" : "closed"} className="w-7 h-1 bg-white rounded"></motion.span>
+                        <motion.span variants={bottomElement} animate={openNav ? "opened" : "closed"} className="w-10 h-1 bg-white rounded origin-left"></motion.span>
                     </button>
                 </div>
                 {
