@@ -45,7 +45,7 @@ const Navbar = () => {
         },
         opened: {
             rotate: 40,
-            width: "2.5rem"
+            width: "2.5rem",
         }
     }
     const centerElement = {
@@ -104,10 +104,10 @@ const Navbar = () => {
             </div>
             {/* ============ Navbar Mobile ============ */}
             <div className="md:hidden">
-                <div className="flex absolute right-20 my-10">
+                <div className="flex absolute right-10 my-10">
                     <button
                         onClick={() => setOpenNav(!openNav)}
-                        className="nav_button flex fixed flex-col gap-2 z-[70]">
+                        className={openNav ? "fixed flex flex-col gap-2 z-[70] right-10" : "nav_button flex flex-col gap-2 z-[70]"}>
                         <motion.span variants={topElement} animate={openNav ? "opened" : "closed"} className="firstNav w-4 h-1 bg-white rounded origin-left"></motion.span>
                         <motion.span variants={centerElement} animate={openNav ? "opened" : "closed"} className="w-7 h-1 bg-white rounded"></motion.span>
                         <motion.span variants={bottomElement} animate={openNav ? "opened" : "closed"} className="w-10 h-1 bg-white rounded origin-left"></motion.span>
