@@ -1,13 +1,44 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { FaInstagram, FaFacebookSquare, FaTwitter, FaLinkedin, FaLongArrowAltRight } from "react-icons/fa";
 import { navlinks } from '../constants';
-import { motion } from "framer-motion"
+import { motion, useAnimationControls } from "framer-motion"
 
 const Navbar = () => {
     const [openNav, setOpenNav] = useState(false)
+    const containerControls = useAnimationControls()
+
+    useEffect(() => {
+        if(openNav) {
+            containerControls.start("opened")
+        }else {
+            containerControls.start("closed")
+        }
+    }, [openNav])
 
 
-    // ======= variants for nav button usinf framer
+    // ======= variants for nav bar using framer
+    const containerVariants = {
+        closed: {
+            translateX: "100%",
+            transition: {
+                type: "spring",
+                damping: 15,
+                duration: 1.5
+            }
+        },
+        opened: {
+            opacity: 1,
+            position: "fixed",
+            translateX: "0",
+            width: "100%",
+            transition: {
+                type: "spring",
+                duration: 2,
+                damping: 15
+            }
+        }
+    }
+    // === navbutton
     const topElement = {
         closed: {
             rotate: 0
@@ -73,29 +104,25 @@ const Navbar = () => {
             </div>
             {/* ============ Navbar Mobile ============ */}
             <div className="md:hidden">
-                <div className="flex absolute right-10 my-10">
-                    <div className=""></div>
-                    <button 
+                <div className="flex absolute right-20 my-10">
+                    <button
                         onClick={() => setOpenNav(!openNav)}
-                        className="nav_button flex flex-col gap-2 z-[70]">
+                        className="nav_button flex fixed flex-col gap-2 z-[70]">
                         <motion.span variants={topElement} animate={openNav ? "opened" : "closed"} className="firstNav w-4 h-1 bg-white rounded origin-left"></motion.span>
                         <motion.span variants={centerElement} animate={openNav ? "opened" : "closed"} className="w-7 h-1 bg-white rounded"></motion.span>
                         <motion.span variants={bottomElement} animate={openNav ? "opened" : "closed"} className="w-10 h-1 bg-white rounded origin-left"></motion.span>
                     </button>
                 </div>
-                {
-                    openNav &&
-                    <div className="absolute top-0 left-0 bg-black text-white flex h-screen w-screen flex-col items-center justify-center gap-8 text-4xl z-[60]">
-                        {navlinks.map(link => (
-                            <div key={link.title}>
-                                <a href={link.url} onClick={() => setOpenNav(!openNav)}>
-                                    {link.title}
-                                </a>
-                            </div>
+                <motion.div variants={containerVariants} animate={containerControls} initial={closed} className="absolute top-0 right-0 bg-black text-white flex h-screen opacity-0 flex-col items-center justify-center gap-8 text-4xl z-[60]">
+                    {navlinks.map(link => (
+                        <div key={link.title}>
+                            <a href={link.url} onClick={() => setOpenNav(!openNav)}>
+                                {link.title}
+                            </a>
+                        </div>
 
-                        ))}
-                    </div>
-                }
+                    ))}
+                </motion.div>
             </div>
             {/* =============== JUMBOTRON ============ */}
             <div className="text-white mx-16 z-50 absolute right-0 top-[40%] md:top-[8%] md:my-44 lg:right-20">
