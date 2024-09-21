@@ -1,5 +1,5 @@
 
-export const valueContent = [
+export const valueContents = [
     {
         img: "../assets/port-1.jpg",
         title: "Push the boundaries of traditional design",
