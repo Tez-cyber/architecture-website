@@ -2,6 +2,12 @@
 export const valueContents = [
     {
         img: "./src/assets/port-1.jpg",
+        title: "",
+        name: "",
+        id: "0"
+    },
+    {
+        img: "./src/assets/port-1.jpg",
         title: "Push the boundaries of traditional design",
         name: "Elevate",
         id: "1"
@@ -26,26 +32,8 @@ export const valueContents = [
     },
     {
         img: "./src/assets/port-1.jpg",
-        title: "Engage with spaces designed to fully captivate and envelope",
-        name: "Immerse 5",
-        id: "5"
-    },
-    {
-        img: "./src/assets/port-1.jpg",
-        title: "Engage with spaces designed to fully captivate and envelope",
-        name: "Immerse 6",
-        id: "6"
-    },
-    {
-        img: "./src/assets/port-1.jpg",
-        title: "Engage with spaces designed to fully captivate and envelope",
-        name: "Immerse 7",
-        id: "7"
-    },
-    {
-        img: "./src/assets/port-1.jpg",
-        title: "Engage with spaces designed to fully captivate and envelope",
-        name: "Immerse 8",
-        id: "8"
-    },
+        title: "",
+        name: "",
+        id: "0"
+    }
 ]
