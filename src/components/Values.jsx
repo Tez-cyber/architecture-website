@@ -61,7 +61,7 @@ const Values = () => {
                                         <img
                                             className={classNames(
                                                 'absolute right-0  w-24 h-auto object-cover md:-translate-x-1/2 md:top-1/2 md:-translate-y-1/2 md:left-1/2 md:h-[640px] md:w-[590px]',
-                                                activeItem === i ? "grayscale blur-sm" : "grayscale-0"
+                                                activeItem === i ? "grayscale md:blur-md" : "grayscale-0"
                                             )}
                                             src={value.img}
                                             alt={value.name}
@@ -71,13 +71,14 @@ const Values = () => {
                                             "inset-0 opacity-25 duration-300 before:absolute before:bottom-0 before:left-[-546px] before:right-0 before:top-[-148px] before:z-10 after:bottom-[28px] after:left-0 after:right-[-434px] after:top-0",
                                             activeItem === i ? "md:opacity-25" : "md:opacity-0"
                                         )}></div>
-                                        {/* ============== */}
+                                        {/* ============== text section */}
                                         <div className={classNames(
                                             "w-2/3 left-8 top-8 p-4 text-gray-50 transition-[transform,opacity] md:p-0 md:absolute", 
                                             activeItem === i ? "md:translate-x-0 md:opacity-100" : "md:translate-x-4 md:opacity-0"
                                         )}>
                                             <p className="uppercase text-sm md:text-lg">{value.title}</p>
-                                            <p className="text-2xl font-bold md:text-4xl">{value.name}</p>
+                                            <p className="text-2xl font-bold md:text-7xl md:mt-[20%]">{value.name}</p>
+                                            <p className='hidden mt-20 md:block md:text-9xl'>{value.id}</p>
                                         </div>
                                     </div>
                                 </li>
