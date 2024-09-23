@@ -63,7 +63,7 @@ const Values = () => {
                                                 'absolute right-0  w-24 h-auto object-cover md:-translate-x-1/2 md:top-1/2 md:-translate-y-1/2 md:left-1/2 md:h-[640px] md:w-[590px]',
                                                 activeItem === i ? "grayscale md:blur-md" : "grayscale-0"
                                             )}
-                                            src={"/public/images" + value.img}
+                                            src={"/src/assets" + value.img}
                                             alt={value.name}
                                         />
                                         {/* =============== */}
